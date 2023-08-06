@@ -1,8 +1,7 @@
 import axios from "axios";
-import { apiKey } from "../constants";
 
 // endpoints
-
+const apiKey = process.env.EXPO_MOVIE_API_KEY;
 const BASE_URL = "https://api.themoviedb.org/3";
 const MOVIE_DETAIL = "/movie/";
 const MOVIE_CREDITS = "/credits";
